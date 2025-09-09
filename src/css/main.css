@@ -1,1 +1,42 @@
-/* Your CSS here. */
+html, body {
+  height: 100%;
+}
+
+body {
+  color: #1f1e1e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 360px;
+  background: #a6c1f4;
+  padding: 24px 20px;
+  text-align: center;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 12px;
+}
+
+.bio {
+  line-height: 1.5;
+}
+
+.profile-link {
+  display: inline-block;
+  color: #0853ae;
+  text-decoration: none;
+  font-weight: 600;
+  background: #ffffff;
+  padding: 8px 12px;
+}
+
+.profile-link:hover {
+  text-decoration: underline;
+}
